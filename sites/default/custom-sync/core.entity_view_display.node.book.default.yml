@@ -1,0 +1,24 @@
+uuid: 7764a1ea-0af0-4c53-9336-5e2a7b5fafaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.book.field_isbn
+    - node.type.book
+  module:
+    - text
+    - user
+id: node.book.default
+targetEntityType: node
+bundle: book
+mode: default
+content:
+  field_isbn:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 100
+hidden: {  }
