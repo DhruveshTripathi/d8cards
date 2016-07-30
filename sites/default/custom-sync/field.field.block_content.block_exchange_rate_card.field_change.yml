@@ -1,0 +1,23 @@
+uuid: b9ea8f7c-4885-49cc-922a-4616b86c86d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_exchange_rate_card
+    - field.storage.block_content.field_change
+id: block_content.block_exchange_rate_card.field_change
+field_name: field_change
+entity_type: block_content
+bundle: block_exchange_rate_card
+label: Change
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

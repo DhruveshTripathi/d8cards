@@ -1,0 +1,19 @@
+uuid: 46debc7a-1842-4623-baa7-aaf9b2649468
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_exchange_rate_card
+    - field.storage.block_content.field_company_name
+id: block_content.block_exchange_rate_card.field_company_name
+field_name: field_company_name
+entity_type: block_content
+bundle: block_exchange_rate_card
+label: 'Company Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

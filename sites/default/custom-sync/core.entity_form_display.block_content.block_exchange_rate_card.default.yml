@@ -1,0 +1,49 @@
+uuid: 3988eeab-9d7c-4538-ae64-cc2a2d4ed554
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_exchange_rate_card
+    - field.field.block_content.block_exchange_rate_card.field_change
+    - field.field.block_content.block_exchange_rate_card.field_company_name
+    - field.field.block_content.block_exchange_rate_card.field_last_price
+    - field.field.block_content.block_exchange_rate_card.field_symbol
+id: block_content.block_exchange_rate_card.default
+targetEntityType: block_content
+bundle: block_exchange_rate_card
+mode: default
+content:
+  field_change:
+    weight: 6
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_company_name:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_last_price:
+    weight: 5
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_symbol:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  info:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

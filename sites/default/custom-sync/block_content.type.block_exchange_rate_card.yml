@@ -1,0 +1,8 @@
+uuid: 5893cbab-5b72-488c-bd26-b4a5cacfb898
+langcode: en
+status: true
+dependencies: {  }
+id: block_exchange_rate_card
+label: 'Block Exchange Rate Card'
+revision: 0
+description: ''

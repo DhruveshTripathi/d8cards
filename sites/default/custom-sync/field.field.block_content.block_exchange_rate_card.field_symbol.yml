@@ -1,0 +1,19 @@
+uuid: 6df0c20e-e61c-4c94-bea2-4ee548008f1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_exchange_rate_card
+    - field.storage.block_content.field_symbol
+id: block_content.block_exchange_rate_card.field_symbol
+field_name: field_symbol
+entity_type: block_content
+bundle: block_exchange_rate_card
+label: Symbol
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
